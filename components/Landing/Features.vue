@@ -20,33 +20,33 @@ export default {
       cardItems: [
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
         {
           icon: "/icons/bus.svg",
-          title: "Distraction-free space",
-          text: "Breather gives you and your team private space to focus and innovate, without the distractions of shared coworking spaces and overcrowded offices.",
+          title: "Distraction-free law space",
+          text: "Lawber gives you and your team private space to focus and innovate, without the distractions of shared public unscraped and unstrctured data.",
         },
       ],
     };
