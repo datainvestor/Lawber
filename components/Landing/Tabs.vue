@@ -11,7 +11,7 @@
         <v-hover v-slot="{ hover }">
           <v-card
             class="mx-4 my-2 rounded-0"
-            max-width="516"
+            :max-width="$vuetify.breakpoint.xs ? 200 : 516"
             @click="toggle"
             :elevation="hover ? 6 : 2"
             :class="{ 'on-active': active, 'on-hover': hover }"

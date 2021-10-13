@@ -2,7 +2,7 @@
   <v-sheet color="rgb(23, 24, 26)" dark>
     <v-container>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <v-img
             class="px-0"
             src="/logodark.png"
@@ -11,11 +11,11 @@
             contain
           />
           <v-card-text class="px-0">
-            <div class="text-h5">Lawber, Law made simple</div>
-            <div class="text--subtitle-1">Powered up research, now, at your service, everywhere.</div>
+            <div class="text-h5 hidden-sm-and-down">Lawber, Law made simple</div>
+            <div class="text--subtitle-1 hidden-sm-and-down">Powered up research, now, at your service, everywhere.</div>
           </v-card-text>
         </v-col>
-        <v-col cols="6">
+        <v-col  cols="12" md="6">
           <div class="font-weight-bold mb-4">Resources</div>
           <ul>
             <li><NuxtLink to="/">Homepage</NuxtLink></li>
