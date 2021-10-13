@@ -62,6 +62,10 @@ export default {};
   color: rgb(138, 143, 153) !important;
 }
 
+a:visited:hover {
+  color: #da7676 !important;
+}
+
 a:hover {
   color: #da7676 !important;
 }
