@@ -1,10 +1,12 @@
 <template>
   <div class="pic-box">
     <div class="grad">
-      <h2 class="text-title">How Lawber works</h2>
+      <h2 class="text-title">
+        How Lawber works
+      </h2>
       <h3 style="padding-left: 2%" class="my-3">
         1. Easily check law people
-        <v-divider class="divider1 mt-1"></v-divider>
+        <v-divider class="divider1 mt-1" />
       </h3>
       <p class="text-box">
         Whether looking up instantly using person's credentials or via advanced
@@ -13,7 +15,7 @@
       </p>
       <h3 style="padding-left: 2%" class="my-3">
         2. Simple and secure access
-        <v-divider class="divider1 mt-1"></v-divider>
+        <v-divider class="divider1 mt-1" />
       </h3>
       <p class="text-box">
         All data is gathered from public resources and according to all latest
@@ -22,7 +24,7 @@
       </p>
       <h3 style="padding-left: 2%" class="my-3">
         3. Take a tour
-        <v-divider class="divider1 mt-1"></v-divider>
+        <v-divider class="divider1 mt-1" />
       </h3>
       <p class="text-box">
         Want to check what is possible with our app? Conenct with our customer
@@ -48,7 +50,8 @@ export default {};
 }
 @media (max-width: 580px) {
   .pic-box {
-    margin-left: 10px;
+    padding-left: 10px;
+    margin-left: 0px;
     margin-top: 30px;
     width: 100%;
     height: 500px;
@@ -82,10 +85,21 @@ export default {};
 }
 
 .text-title {
-  padding: 2%;
+  padding-left: 2%;
+  padding-bottom: 1%;
   color: rgb(131, 84, 84);
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.65em;
+}
+
+@media (max-width: 480px) {
+  .text-title {
+    padding: 1%;
+    color: rgb(23, 24, 26);
+    font-family: MaisonNeue,sans-serif!important;
+    font-weight: normal;
+    font-size: 1.4em;
+  }
 }
 
 .divider1 {

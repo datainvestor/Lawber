@@ -6,12 +6,12 @@
     <v-container>
       <Features />
     </v-container>
-    <WideImage></WideImage>
-    <WhatIs></WhatIs>
-    <WhoUses></WhoUses>
-    <Tabs></Tabs>
-    <Contact></Contact>
-    <Footer></Footer>
+    <WideImage />
+    <WhatIs />
+    <WhoUses />
+    <Tabs />
+    <Contact />
+    <Footer />
   </div>
 </template>
 

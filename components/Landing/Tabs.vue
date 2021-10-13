@@ -12,10 +12,10 @@
           <v-card
             class="mx-4 my-2 rounded-0"
             :max-width="$vuetify.breakpoint.xs ? 200 : 516"
-            @click="toggle"
             :elevation="hover ? 6 : 2"
             :class="{ 'on-active': active, 'on-hover': hover }"
             :ripple="false"
+            @click="toggle"
           >
             <v-card-text>
               <div class="text--primary">
@@ -23,9 +23,13 @@
                 indidual research I need to do. App is easy to use, unlike other
                 available sources"
               </div>
-              <v-divider class="divider1 mt-6"></v-divider>
-              <div class="font-weight-medium">Łukasz Gotowiec</div>
-              <p class="caption">Lead Lawyer, Abstergo Industries</p>
+              <v-divider class="divider1 mt-6" />
+              <div class="font-weight-medium">
+                Łukasz Gotowiec
+              </div>
+              <p class="caption">
+                Lead Lawyer, Abstergo Industries
+              </p>
             </v-card-text>
           </v-card>
         </v-hover>

@@ -11,17 +11,39 @@
             contain
           />
           <v-card-text class="px-0">
-            <div class="text-h5 hidden-sm-and-down">Lawber, Law made simple</div>
-            <div class="text--subtitle-1 hidden-sm-and-down">Powered up research, now, at your service, everywhere.</div>
+            <div class="text-h5 hidden-sm-and-down">
+              Lawber, Law made simple
+            </div>
+            <div class="text--subtitle-1 hidden-sm-and-down">
+              Powered up research, now, at your service, everywhere.
+            </div>
           </v-card-text>
         </v-col>
-        <v-col  cols="12" md="6">
-          <div class="font-weight-bold mb-4">Resources</div>
+        <v-col cols="12" md="6">
+          <div class="font-weight-bold mb-4">
+            Resources
+          </div>
           <ul>
-            <li><NuxtLink to="/">Homepage</NuxtLink></li>
-            <li><NuxtLink to="/privacy">Privacy Policy</NuxtLink></li>
-            <li><NuxtLink to="/tos">ToS</NuxtLink></li>
-            <li><NuxtLink to="/careers">Careers</NuxtLink></li>
+            <li>
+              <NuxtLink to="/">
+                Homepage
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/pcdrivacy">
+                Privacy Policy
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/tos">
+                ToS
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/careers">
+                Careers
+              </NuxtLink>
+            </li>
           </ul>
         </v-col>
       </v-row>
@@ -34,27 +56,21 @@ export default {};
 </script>
 
 <style scoped>
-a,
-a:visited {
+.v-application a,
+.v-application a:visited {
   text-decoration: none;
-  color: rgb(138, 143, 153);
-}
-
-a {
-  text-decoration: none;
-  color: rgb(138, 143, 153);
+  color: rgb(138, 143, 153) !important;
 }
 
 a:hover {
-  color: #da7676;
+  color: #da7676 !important;
 }
 
 li {
   padding: 0.05rem 0;
 }
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
-
 </style>
