@@ -11,6 +11,7 @@
     <WhoUses></WhoUses>
     <Tabs></Tabs>
     <Contact></Contact>
+    <Footer></Footer>
   </div>
 </template>
 
