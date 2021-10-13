@@ -104,6 +104,6 @@ export default {};
 
 .divider1 {
   width: 100px;
-  border-color: blue;
+  border-color: rgba(3, 3, 206, 0.685) !important;
 }
 </style>

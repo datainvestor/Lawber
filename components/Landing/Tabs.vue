@@ -1,7 +1,6 @@
 <template>
   <v-sheet color="#E6E6EE">
     <v-slide-group
-      v-model="model"
       :class="$vuetify.breakpoint.xs ? 'pa-2' : 'pa-4'"
       center-active
       show-arrows
@@ -59,6 +58,6 @@ export default {};
 }
 .divider1 {
   width: 100px;
-  border-color: rgba(3, 3, 206, 0.685);
+  border-color: rgba(3, 3, 206, 0.685) !important;
 }
 </style>
