@@ -19,8 +19,8 @@
           <div class="font-weight-bold mb-4">Resources</div>
           <ul>
             <li><NuxtLink to="/">Homepage</NuxtLink></li>
-            <li><NuxtLink to="/inspire">Privacy Policy</NuxtLink></li>
-            <li><NuxtLink to="/landing">ToS</NuxtLink></li>
+            <li><NuxtLink to="/privacy">Privacy Policy</NuxtLink></li>
+            <li><NuxtLink to="/tos">ToS</NuxtLink></li>
             <li><NuxtLink to="/careers">Careers</NuxtLink></li>
           </ul>
         </v-col>
@@ -36,6 +36,11 @@ export default {};
 <style scoped>
 a,
 a:visited {
+  text-decoration: none;
+  color: rgb(138, 143, 153);
+}
+
+a {
   text-decoration: none;
   color: rgb(138, 143, 153);
 }

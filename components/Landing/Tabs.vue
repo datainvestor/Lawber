@@ -2,7 +2,7 @@
   <v-sheet color="#E6E6EE">
     <v-slide-group
       v-model="model"
-      class="pa-4"
+      :class="$vuetify.breakpoint.xs ? 'pa-2' : 'pa-4'"
       center-active
       show-arrows
       mandatory
